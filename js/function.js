@@ -30,11 +30,11 @@ function getInputFieldValueById(elementId){
 
     return inputClothElementValue;
 }
-// Function for Saving input field 
-function getInputFieldValueById(elementId){
-    const incomeInputElement = document.getElementById(elementId);
-    const inputElementValueString = incomeInputElement.value;
-    const inputClothElementValue = parseInt(inputElementValueString);
+// // Function for Saving input field 
+    function getInputFieldValueById(elementId){
+    const savingInputElement = document.getElementById(elementId);
+    const inputElementValueString = savingInputElement.value;
+    const inputSavingElementValue = parseInt(inputElementValueString);
 
     return inputSavingElementValue;
 }
